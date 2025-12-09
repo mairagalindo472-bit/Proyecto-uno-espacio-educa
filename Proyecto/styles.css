@@ -1,0 +1,97 @@
+.Texto{
+    display: grid;
+    place-items: center;
+
+}
+
+h1{
+   font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    height:100px ;
+    width: 400px ;
+    
+}
+
+
+.boton{
+    border:40px rgb(51, 51, 177);
+    padding: 30px;
+
+}
+body{
+    background:#ebeaf1;
+}
+
+.Contenedor-grupo {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 20px;
+
+}
+
+.Productos{
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    
+}
+
+.tecnología{
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+  
+    }
+
+.Investigación{
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    
+}
+
+.Seccion{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(194, 225, 252);
+
+
+}
+
+.google{
+    display: flex;
+    justify-content: center;
+}
+
+.Suscribir{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-listas{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.lista{
+    padding: 0;
+}
+
+.lista li {
+    margin-bottom: 20px;
+}
+
+.lista a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.lista a:hover{
+    background-color: rgb(172, 166, 166);
+}
